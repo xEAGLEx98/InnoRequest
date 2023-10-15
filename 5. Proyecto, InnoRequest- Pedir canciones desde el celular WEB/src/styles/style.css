@@ -14,11 +14,10 @@
     height: 40px;
     width: 40px;
 }
-/*CARDS*/
-.custom-card {
-    margin: 0 10px; /* Espacio horizontal entre las tarjetas */
-  }
-  
-  .container {
-    padding: 0 20px; /* Espacio en los márgenes izquierdo y derecho de la pantalla */
-  }
+/*Footer*/
+.foot{
+    background-color:#0F2624 ;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
