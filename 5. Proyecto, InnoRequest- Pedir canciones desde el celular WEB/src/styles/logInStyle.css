@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    background-color:#F2AC57;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*height:100vh se usa para darle una altura a el body de la ventana, la cuál será del 100% de la ventana, por lo cuál, align-items:center reflejará un elemento centrado en Y.*/
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.name{
+    height: 30px;
+    width: 300px;
+    padding:10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    font-size: 20px; 
+    border-width: 3px;
+}
+
+.btnSend{
+    background-color: #0d6efd;
+    color:aliceblue;
+    font-size: 20px;
+    height: 50px;
+    width: 330px;
+    border-radius: 20px;
+    border-color:  #0d6efd;
+    margin-top:5px;
+}
+#img-Logo{
+    margin-top:20px;
+    height: 250px;
+    width: 300px;
+}
