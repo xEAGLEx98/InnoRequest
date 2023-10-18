@@ -1,6 +1,6 @@
 body {
     display: flex;
-    background-color:#F2AC57;
+    background-color:#F2AC57 !important;
     margin:0;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap;
     height: 500px;
     width: 500px;
-    background-color: white;
+    background-color: white !important;
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
