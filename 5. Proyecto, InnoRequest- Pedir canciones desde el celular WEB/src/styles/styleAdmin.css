@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
 }
-
+/*GRID FOR REQUESTED SONGS*/
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +32,10 @@
     list-style: none;
     padding: 10px;
     border: 1px solid #ccc;
+}
+.user{
+    background:#575757 !important;
+    color:white !important;
 }
 /*Footer*/
 .foot{
