@@ -38,12 +38,27 @@
     background:#575757 !important;
     color:white !important;
 }
-@media (min-width: 360px) {
+/*Para celulares*/
+@media (max-width: 360px) {
     .row {
         width: 100% !important; /* Hacer que la tabla ocupe el ancho completo */
-        font-size: 10px !important; /* Reducir el tamaño de fuente para que quepa en la pantalla */
+        font-size: 12px !important; /* Reducir el tamaño de fuente para que quepa en la pantalla */
         /* Otros estilos específicos para pantallas pequeñas */
-        margin-bottom: 10px;
+    }
+}
+
+/*Tablets*/
+@media (min-width:760px) and (max-width: 768px){
+    .row{
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+}
+/* Pantallas hd o laptops*/
+@media (min-width:1200px) and (max-width: 1900px) {
+    .row{
+        width: 100% !important;
+        font-size: 15px !important;
     }
 }
 /*Footer*/
@@ -52,4 +67,6 @@
     color:white;
     text-align: center;
     padding: 10px;
+    position: fixed;
+    bottom:0;
 }

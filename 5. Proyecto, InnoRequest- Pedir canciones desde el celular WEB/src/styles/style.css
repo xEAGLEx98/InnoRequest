@@ -14,7 +14,9 @@
     height: 40px;
     width: 40px;
 }
-
+.card{
+    margin: auto !important;
+}
 
 .player{
     width: 250px;
@@ -31,4 +33,6 @@
     color:white;
     text-align: center;
     padding: 10px;
+    bottom: 0;
+
 }
